@@ -1,0 +1,92 @@
+.aaa {
+position: absolute;
+left: 5.56%;
+right: 10.56%;
+top: 2.78%;
+bottom: 93.17%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 144.5%;
+/* or 104px */
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+
+};
+.bbb{
+  /* Frame 4 */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12.5px;
+
+position: absolute;
+left: 5.56%;
+right: 79.24%;
+top: 7.54%;
+bottom: 91.8%;
+
+background: #EF2A82;
+border-radius: 10px;
+
+
+/* fa-solid:donate */
+
+position: static;
+width: 22px;
+height: 22px;
+left: 19.5px;
+top: 15.5px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+
+
+/* Donate Now */
+
+position: static;
+width: 148px;
+height: 28px;
+left: 51.5px;
+top: 12.5px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 138.5%;
+/* identical to box height, or 28px */
+letter-spacing: 0.14em;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
